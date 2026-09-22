@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(16, 16, 40);
+}
+*{padding: 0px;
+    margin: 0px;
+}
+.cover{
+    width: 100%;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+.main-profile{
+    width: 100%;
+    height: auto;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+}
+.border-profile{
+    border: 3px solid  rgb(16, 16, 40);
+}
+.text-profile{
+    text-align: center;
+    margin-top: -80px;
+}
+.badge-out-line-gold{
+    background-color: rgba(255, 183, 0, 0.10);
+    border: 1px solid goldenrod;
+}
+.badge-gold{
+    background-color:  rgba(255, 183, 0, 0.10);
+}
+.text-gold{
+    color: goldenrod;
+}
+li{
+    list-style-type: none !important;
+}
+.icon{
+    padding: 3px;
+    display: block;
+}
+.bg-verified{
+    background-color: rgba(17, 125, 125, 0.200);
+    border: 1px solid rgb(4, 106, 108);
+}
+.color-verify{
+    color: rgb(0, 152, 155);
+}
+.bg-full-time{
+    background-color: rgba(83, 84, 84, 0.322);
+    border: 1px solid rgb(118, 118, 118);
+}
+.contact,.Work, .account{
+    margin-top: 32px;
+}
+.bg-blue{
+    background-color: rgb(31, 31, 66);
+}
+.label{
+    font-size: 12px;
+    color: rgb(206, 204, 204);
+}
